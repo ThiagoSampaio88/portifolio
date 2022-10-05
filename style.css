@@ -61,3 +61,19 @@ header{
   font-weight: 500;
   cursor: pointer;
 }
+
+button{
+  color: aquamarine;
+  background: transparent;
+  border: 1px solid aquamarine;
+  padding: 4px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(207, 205, 205);
+  color: rebeccapurple;
+  border-color: rebeccapurple;
+  transition: 0.3s
+}
